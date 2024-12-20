@@ -1,0 +1,147 @@
+/* 顶部导航栏样式 */
+#top {
+    height: 25px; /* 高度为25px */
+    background-color: #1c1d1c; /* 背景颜色为深灰色 */
+    display: flex; /* 使用弹性盒子布局 */
+    justify-content: flex-end; /* 子元素向右对齐 */
+    align-items: center; /* 子元素垂直居中 */
+    padding-right: 54px; /* 右侧内边距为54px */
+}
+#top div {
+    margin: 0 20px; /* 左右外边距为20px */
+    color: #f7f7f7; /* 文字颜色为浅灰色 */
+    font-size: 13px; /* 字体大小为13px */
+    display: flex; /* 使用弹性盒子布局 */
+    align-items: center; /* 子元素垂直居中 */
+}
+#top span:first-child {
+    font-size: 12px; /* 第一个span标签的字体大小为12px */
+    margin-right: 2px; /* 右侧外边距为2px */
+}
+body {
+    margin: 0; /* 移除body的默认外边距 */
+}
+/* 头部样式 */
+.header {
+    display: flex; /* 使用弹性盒子布局 */
+    align-items: center; /* 子元素垂直居中 */
+    padding-top: 20px; /* 顶部内边距为10px */
+    background: #FFF; /* 背景颜色为白色 */
+    width: 100%; /* 宽度为100% */
+    padding-bottom: 20px; /* 底部内边距为12px */
+}
+/* logo样式 */
+.logo img {
+    height: 30px; /* 高度为30px */
+    margin-left: 75px; /* 左侧外边距为75px */
+}
+
+/* 定义列表样式 */
+dl {
+    align-items: center; /* 子元素垂直居中 */
+    margin-left: 365px; /* 左侧外边距为365px */
+}
+
+dd {
+    display: inline; /* 显示为行内元素 */
+}
+
+dd a {
+    color: black; /* 文字颜色为黑色 */
+    text-decoration: none; /* 移除下划线 */
+    font-size: 16px; /* 字体大小为16px */
+}
+/* 图标样式 */
+.icon {
+    margin-left: 320px;
+    justify-content: flex-end; /* 子元素向右对齐 */
+    padding-left: 1100px;
+    z-index: 1001;
+    position: relative;
+}
+.icon i {
+    font-size: 30px; /* 字体大小为25px */
+    margin-left: 18px; /* 左侧外边距为18px */
+
+}
+
+#icon {
+    display: flex;
+    position: absolute;
+    top: 50px;
+}
+
+/* banner样式 */
+banner {
+    position: relative; /* 相对定位 */
+    overflow: hidden; /* 隐藏溢出的内容 */
+    
+}
+
+#banner{
+    position: relative; /* 相对定位 */
+    /* display: none; */
+    /* !!!!!
+    !!!!!!!!!!!!!!
+    !!!!!!!!!!!!
+    !!!!!!!!!!!!!!! */
+
+}
+
+/* 折叠图片 */
+.banner-img {
+    display: none; /* 默认不显示 */
+    width: 100%; /* 宽度为100% */
+    transition: opacity 1s ease-in-out; /* 淡入淡出效果 */
+}
+
+.banner-img-active {
+    display: block; /* 显示 */
+    opacity: 1; /* 不透明 */
+}
+
+/* 图片底部导航条 */
+.banner-span {
+    display: inline-block; /* 显示为行内块级元素 */
+    width: 110px; /* 宽度为120px */
+    height: 3px; /* 高度为4px */
+    margin: 10px; /* 外边距为10px */
+    background-color: #a8a8a8; /* 背景颜色为浅灰色 */
+}
+
+/* 指示器容器样式 */
+#banner div:last-child {
+    text-align: center; /* 文字居中 */
+    position: absolute; /* 绝对定位 */
+    bottom: 10px; /* 底部外边距为10px */
+    width: 100%; /* 宽度为100% */
+}
+
+/* 渐变蒙版 */
+#banner div:nth-child(2) {
+    position:absolute; /* 绝对定位 */
+    bottom: 0; /* 底部对齐 */
+    height: 200px; /* 高度为200px */
+    width: 100%; /* 宽度为100% */
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.25)); /* 渐变背景 */
+}
+
+
+/* 激活的指示器样式 */
+.banner-span-active {
+    background-color: #fff; /* 背景颜色为白色 */
+}
+
+/* 按钮样式 */
+button {
+    position: absolute; /* 绝对定位 */
+    top: -65px; /* 顶部外边距为-105px */
+    left: 14%; /* 左侧外边距为14% */
+    width: 9%; /* 宽度为9% */
+    padding: 11px 20px; /* 内边距为11px 20px */
+    background-color: #C7000B; /* 背景颜色为深红色 */
+    color: white; /* 文字颜色为白色 */
+    border: none; /* 无边框 */
+    cursor: pointer; /* 鼠标悬停时显示指针 */
+    font-size: 16px; /* 字体大小为16px */
+}

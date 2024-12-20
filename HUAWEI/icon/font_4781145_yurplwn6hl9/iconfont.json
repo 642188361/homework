@@ -1,0 +1,37 @@
+{
+  "id": "4781145",
+  "name": "华为",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8126472",
+      "name": "serch",
+      "font_class": "serch",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "10186127",
+      "name": "bags",
+      "font_class": "bags",
+      "unicode": "e681",
+      "unicode_decimal": 59009
+    },
+    {
+      "icon_id": "4974166",
+      "name": "网站",
+      "font_class": "wangzhan",
+      "unicode": "e6f5",
+      "unicode_decimal": 59125
+    },
+    {
+      "icon_id": "7720058",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    }
+  ]
+}

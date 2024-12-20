@@ -1,0 +1,79 @@
+{
+  "id": "4781914",
+  "name": "华为个人及家庭产品",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1092111",
+      "name": "笔记本电脑",
+      "font_class": "bijibendiannao",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "2053441",
+      "name": "pad 平板电脑",
+      "font_class": "pad",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "4701660",
+      "name": "圆圈右箭头",
+      "font_class": "ly36",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "5056524",
+      "name": "路由器-01",
+      "font_class": "luyouqi-",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "5056526",
+      "name": "手表-01",
+      "font_class": "shoubiao-",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "11756467",
+      "name": "显示器",
+      "font_class": "V",
+      "unicode": "e72d",
+      "unicode_decimal": 59181
+    },
+    {
+      "icon_id": "17968105",
+      "name": "手机（华为手机）",
+      "font_class": "yyicon1",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "18220109",
+      "name": "形状 13",
+      "font_class": "xingzhuang13",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "24513356",
+      "name": "HMos",
+      "font_class": "HMos",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "41068113",
+      "name": "蓝牙耳机",
+      "font_class": "lanyaerji",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    }
+  ]
+}

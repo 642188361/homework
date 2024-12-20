@@ -1,0 +1,23 @@
+{
+  "id": "4781925",
+  "name": "产品",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3187941",
+      "name": "消费者",
+      "font_class": "xiaofeizhe",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "4055804",
+      "name": "房子",
+      "font_class": "fangzi",
+      "unicode": "e8ff",
+      "unicode_decimal": 59647
+    }
+  ]
+}

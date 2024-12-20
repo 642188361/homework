@@ -1,0 +1,597 @@
+/* 基本样式重置 */
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 中心对齐的导航栏 */
+.center {
+    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.center li {
+    display: none;
+    position: relative; /* 为下拉菜单提供定位上下文 */
+    display: inline-block; /* 使菜单项水平排列 */
+    cursor: pointer;
+}
+  
+.center li span {
+    display: block; /* 使菜单项可点击区域更大 */
+    padding: 10px 20px; /* 添加一些内边距 */
+    width: 100%; /* 使span元素宽度占满整个li元素 */
+    height: 100%; /* 使span元素高度占满整个li元素 */
+}
+
+.per {
+    display: flex;
+}
+.per1 ul li{
+    display: flex;
+    float: auto;
+    
+}
+.len1 {
+    position: absolute;
+    display: flex;
+    padding-left: 150px;
+    font-size: 16px;
+}
+
+.len1 ul{
+    padding-top: 90px;
+    padding-right: 80px;
+    line-height: 75px;
+}
+
+.len1 a{
+    display: flex;
+    position: absolute;
+    font-size: 18px;
+    padding-left: 16px;
+    width: 100%;
+}
+.len2 {
+    position: absolute;
+    display: flex;
+    padding-left: 150px;
+    font-size: 16px;
+    padding-top: 150px;
+}
+
+.len2 ul{
+    padding-top: 100px;
+    padding-right: 80px;
+    line-height: 75px;
+}
+
+.len2 a{
+    display: flex;
+    text-align: center;
+    position: absolute;
+    font-size: 18px;
+    width: 300%;
+}
+
+.alone-iconfont {
+    font-family: "iconfont" !important;
+    font-style: normal;
+    font-size: 70px;
+}
+.mate70 {
+    width: 30%;
+    height: 95%;
+    padding-left: 1000px;
+}
+
+
+  
+
+
+
+
+.xfz {
+    display: flex;
+    position: absolute;
+    padding-left: 150px;
+    padding-top: 20px;
+    z-index: 15;
+}
+.xfz a {
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.xfz i {
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    border: 0;
+}
+.hw {
+    display: flex;
+    position: absolute;
+    padding-left: 450px;
+    padding-right: 750px;
+    padding-top: 20px;
+    background-color: #f7f7f7;
+    height: 14.9%;
+    width: 700px;
+}
+.hw a {
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.hw i{
+    color: red;
+    font-size: 50px;
+    border: 0;
+}
+
+
+/* 鼠标悬停时显示下拉内容 */
+.center li:hover .personal,
+.center li:hover .business,
+.center li:hover .serve,
+.center li:hover .developer,
+.center li:hover .about1 {
+    display: block; /* 显示下拉内容 */
+}
+
+/* 关闭按钮样式 */
+#closeper, #close-part {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* 使整个列表纵向排列 */
+.scheme ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    display: flex;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+ /* 基本重置 */
+.scheme, .title {
+    margin: 0;
+    padding: 0;
+    /* list-style: none; */
+    position: absolute;
+    display: flex;
+}
+
+
+
+
+/* 下拉内容样式 */
+
+
+/* 个人及家庭产品下拉内容样式 */
+.personal{
+    display: none; 
+    /* 默认隐藏下拉内容 */
+    position: fixed; /* 使用fixed定位，相对于视口定位 */
+    top: 0; /* 从视口顶部开始 */
+    left: 0; /* 从视口左侧开始 */
+    width: 100vw; /* 宽度为视口宽度 */
+    height: 60vh; /* 高度为视口高度的一半 */
+    background-color: #f9f9f9; /* 背景颜色 */
+    z-index: 10; /* 确保下拉内容在顶部 */
+    top: 11.2%;
+    
+}
+/* 商用产品及方案下拉内容样式 */
+.business{
+    display: none; 
+    /* 默认隐藏下拉内容 */
+    position: fixed; /* 使用fixed定位，相对于视口定位 */
+    top: 0; /* 从视口顶部开始 */
+    left: 0; /* 从视口左侧开始 */
+    width: 100vw; /* 宽度为视口宽度 */
+    height: 60vh; /* 高度为视口高度的一半 */
+    background-color: #f9f9f9; /* 背景颜色 */
+    z-index: 10; /* 确保下拉内容在顶部 */
+    top: 11.2%;
+    
+}
+/* 服务支持下拉内容样式 */
+.serve{
+    display: none; 
+    /* 默认隐藏下拉内容 */
+    position: fixed; /* 使用fixed定位，相对于视口定位 */
+    top: 0; /* 从视口顶部开始 */
+    left: 0; /* 从视口左侧开始 */
+    width: 100vw; /* 宽度为视口宽度 */
+    height: 60vh; /* 高度为视口高度的一半 */
+    background-color: #f9f9f9; /* 背景颜色 */
+    z-index: 10; /* 确保下拉内容在顶部 */
+    top: 11.2%;
+    
+}
+
+/* 合作伙伴与开发者下拉内容样式 */
+.developer{
+    display: none; 
+    /* 默认隐藏下拉内容 */
+    position: fixed; /* 使用fixed定位，相对于视口定位 */
+    top: 0; /* 从视口顶部开始 */
+    left: 0; /* 从视口左侧开始 */
+    width: 100vw; /* 宽度为视口宽度 */
+    height: 60vh; /* 高度为视口高度的一半 */
+    background-color: #f9f9f9; /* 背景颜色 */
+    z-index: 10; /* 确保下拉内容在顶部 */
+    top: 11.2%;
+}
+
+/* 关于华为下拉内容样式 */
+.about1 {
+    display: none; 
+    /* 默认隐藏下拉内容 */
+    position: fixed; /* 使用fixed定位，相对于视口定位 */
+    top: 0; /* 从视口顶部开始 */
+    left: 0; /* 从视口左侧开始 */
+    width: 100vw; /* 宽度为视口宽度 */
+    height: 60vh; /* 高度为视口高度的一半 */
+    background-color: #f9f9f9; /* 背景颜色 */
+    z-index: 10; /* 确保下拉内容在顶部 */
+    top: 11.2%;
+}
+
+
+
+/* 下拉框 */
+
+
+
+/* 个人及家庭产品 */
+.personal{
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+     /* 根据实际需要调整宽度 */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 1000; /* 确保下拉菜单在最上层 */
+    height: 628px;
+    position: fixed;
+    top: 11.2%;
+    left: 0;
+    width: 100%;
+}
+
+
+/* 商用产品及方案下拉框 */
+.business{
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+     /* 根据实际需要调整宽度 */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 1000; /* 确保下拉菜单在最上层 */
+    height: 628px;
+    position: fixed;
+    top: 11.2%;
+    left: 0;
+    width: 100%;
+}
+
+/* 服务支持下拉框 */
+.serve {
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+     /* 根据实际需要调整宽度 */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 1000; /* 确保下拉菜单在最上层 */
+    height: 628px;
+    position: fixed;
+    top: 11.2%;
+    left: 0;
+    width: 100%;
+}
+
+/* 合作伙伴与开发者 */
+.developer{
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+     /* 根据实际需要调整宽度 */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 1000; /* 确保下拉菜单在最上层 */
+    height: 628px;
+    position: fixed;
+    top: 11.2%;
+    left: 0;
+    width: 100%;
+}
+
+.about1{
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+     /* 根据实际需要调整宽度 */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 1005; /* 确保下拉菜单在最上层 */
+    height: 628px;
+    position: fixed;
+    top: 11.2%;
+    left: 0;
+    width: 100%;
+}
+
+
+
+
+
+/* 副标题 */
+.sec-title {
+    font-weight: bold;
+    padding: 8px 15px;
+}
+
+/* 列表项 */
+li a {
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+li a:hover {
+    background-color: #eaeaea;
+}
+
+/* 底部盒子 */
+.bottom-big-box {
+    display: none; 
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+}
+
+
+.iconfont {
+    margin-right: 5px;
+}
+
+/* 外部链接图标 */
+.fas {
+    margin-left: 5px;
+}
+
+/* 关闭按钮 */
+.right-b {
+    cursor: pointer;
+    color: #888;
+}
+
+.right-b:hover {
+    color: #333;
+}
+
+/* 产品、服务、行业解决方案、热点话题的标题 */
+.title {
+    padding:30px 0 0 250px;
+    border-bottom: 1px solid #ddd;
+    width: 400px;
+    height: 60px;
+}
+
+.title1{
+    
+    padding:10px 80px 0 20px;
+    border-bottom: 1px solid #ddd;
+    width: 400px;
+    padding-bottom: 30px;
+    position: absolute;
+}
+
+.title2{
+    padding:10px 80px 800px 200px;
+    border-bottom: 1px solid #ddd;
+    width: 400px;
+    /* padding-bottom: 30px; */
+    position: absolute;
+}
+
+.title3 {
+    padding:10px 80px 800px 600px;
+    border-bottom: 1px solid #ddd;
+    width: 400px;
+    padding-bottom: 30px;
+    position: absolute;
+}
+
+.group1{
+    display: flex;
+    position: absolute;
+
+}
+
+.group1 ul {
+    padding-top: 120px;
+    padding-left: 240px;
+    margin-right: -50px;
+}
+
+.group1 li {
+    margin-right: -600px;
+}
+.group2{
+    padding-left: 800px;
+}
+
+.group2 ul {
+    padding-top: 120px;
+    display: flex;
+    position: absolute
+}
+
+.group2 li {
+    width: 150px;
+    
+}
+
+.group3{
+    padding-left: 1040px;
+}
+
+.group3 ul {
+    padding-top: 120px;
+    position: absolute;
+    display: flex;
+}
+
+.group4{
+    padding-left: 1400px;
+}
+
+.group4 ul {
+    padding-top: 120px;
+    position: absolute;
+    display: flex;
+}
+
+.list1 {
+    display: flex;
+    padding-left: 150px;
+}
+
+.list1 ul{
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    margin-left: 120px;
+    font-size: 17px;
+}
+
+.title01 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.list2 {
+    display: flex;
+    padding-left: 150px;
+}
+
+.list2 ul{
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    margin-left: 250px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.title02 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+    width: 150px;
+}
+
+.title03 {
+    font-size: 23px;
+    padding-top: 22px;
+    border-bottom: 1px solid #ddd;
+    width: 35%;
+    margin-left: 50px;
+}
+.title04 {
+    font-size: 23px;
+    padding-top: 22px;
+    border-bottom: 1px solid #ddd;
+    width: 150px;
+    height: 50px;
+    margin-left: 200px;
+}
+
+.group01{
+    display: flex;
+    position: absolute;
+    padding-left: 155px;
+    width: 90%;
+}
+
+.group02{
+    display: flex;
+    position: absolute;
+    padding-left: 90px;
+    width: 48%;
+}
+
+.group02 ul {
+    flex-direction: column;
+    padding-left: 100px;
+    padding-top: 90px;
+    font-size: 17px;
+    width: 20%;
+}
+
+.group03{
+    display: flex;
+    position: absolute;
+    padding-left: 990px;
+    padding-top: 90px;
+    width: 48%;
+}
+
+.group03 ul {
+    display: flex;
+    flex-direction: column;
+}
+.group03 li{
+    display: flex;
+}
+
+.group04 {
+    display: flex;
+    position: absolute;
+    padding-left: 70.5%;
+    padding-top: 90px;
+    width: 48%;
+}
+
+.group04 ul {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.list111 {
+    display: flex;
+    position: absolute;
+}
+
